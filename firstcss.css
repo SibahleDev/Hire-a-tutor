@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    font-family: fantasy copperplate;
+    font-size: medium;
+    color: rgb(28, 80, 77, 1);
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#showcase{
+    background-image: url(tutt.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 15px;
+}
+
+.search{
+    width:200px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+    margin:7px;
+}
+      
+.sear{
+    background-color: rgb(28, 80, 77, 1);
+    color: #f2f2f2;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    border-radius:25px;
+    cursor: pointer;
+} 
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+h1{
+    position: relative;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.content h1{
+    font-size: 45px;
+    padding-left: 20px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+}
+
+.cn{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(89, 160, 156);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#imge{
+    float: left;
+}
+.link{
+    font-size: 14px;
+}
+
+.button{
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(5, 133, 126);
+    border: rgb(5, 133, 126) 4px solid;
+    border-radius: 20px;
+    margin: 13px;
+    margin-right: 20px;
+    padding: 0 25px;
+}
+.button:hover{
+    background: black;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgb(89, 160, 156)50%, rgb(89, 160, 156)50%);
+    position: absolute;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    padding-top: 35px;
+}
+.form h2{
+    width: 220px;
+    text-align: center;
+    font-family: fantasy copperplate;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: white;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: fantasy copperplate;
+     
+}
+nav{
+    background-color: rgb(5, 133, 126);
+    height: 10vh;
+    color: white;
+    overflow: hidden;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul{
+   float: right;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+nav li {
+    float: left;
+    line-height: 80px;
+    margin: 0 5px;
+ }
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+
+ nav ul li a{
+    font-size: 17px;
+ }
+ .form2 input{
+    width: 240px;
+    height: 62.1px;
+    background: rgb(219, 213, 213);
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 133, 126);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-left: 35px;
+    font-family: fantasy copperplate;    
+}
+.province{
+    width: 240px;
+    height: 63px;
+    background: rgb(219, 213, 213);
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: gray;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-left: 35px;
+    font-family: fantasy copperplate;
+}
+.store{
+    width: 240px;
+    height: 55px;
+    background: rgb(219, 213, 213);
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family: fantasy copperplate;
+}
+.lab{
+    margin-left: 35px;
+}
+.he2{
+    text-align: center;
+}
+.main{
+    background-image: url(tutt.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 15px;
+}
